@@ -1,0 +1,22 @@
+++++++++++++++++++++++++++++++++++++++++++++++++
+SELECT * from mahasiswa;
+++++++++++++++++++++++++++++++++++++++++++++++++
+yyyy-mm-dd
+2016-06-22
+1 - teknik informatika
+2 - sistem informasi
+INSERT into mahasiswa (id,nim,nama,tempat_lahir,
+			tanggal_lahir,id_jurusan,
+			kelas,alamat,telp,email)
+VALUES (null,'nimsendiri','namasendiri','jakarta',
+	'tanggallahirsendiri',1,'Pagi',
+	'alamatsendiri','telpsendiri',
+	'emailsendiri');
++++++++++++++++++++++++++++++++++++++++++++++++++
+UPDATE mahasiswa SET nama = 'namabaru' 
+where id = 'idyangdituju';
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DELETE from mahasiswa where id = 'idyangdituju';
++++++++++++++++++++++++++++++++++++++++++++++++++
+ 

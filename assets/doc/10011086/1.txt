@@ -1,0 +1,24 @@
+SQL - STRUCTURE QUERY LANGUAGE
+
+CREATE DATABASE db_stikomcki;
+
+USE db_stikomcki;
+
+CREATE TABLE mahasiswa (
+id int(10) PRIMARY KEY auto_increment,
+nim varchar(100),
+nama varchar(100),
+tempat_lahir varchar(100),
+tanggal_lahir date,
+id_jurusan int(10),
+kelas varchar(10),
+alamat text,
+telp text, 
+email varchar(100)
+);
+
+
+CREATE TABLE jurusan (
+id int(10) PRIMARY KEY auto_increment,
+nama_jurusan varchar(100)
+);
